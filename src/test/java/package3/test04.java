@@ -1,10 +1,15 @@
 package package3;
 
+import org.testng.annotations.Test;
+
 public class test04 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		@Test(groups="smokesuite")
+		public void test()
+		{
+			System.out.println("----smoke testing dione----");
+		}
 	}
 
-}
+
