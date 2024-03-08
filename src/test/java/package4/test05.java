@@ -7,7 +7,7 @@ public class test05 {
 	@Test(groups={"smokesuite","regressionsuite"})
 	public void test()
 	{
-		System.out.println("----regression testing dione----");
+		System.out.println("----regression testing ----");
 	}
 
 
