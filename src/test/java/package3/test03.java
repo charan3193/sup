@@ -1,9 +1,14 @@
 package package3;
 
+import org.testng.annotations.Test;
+
 public class test03 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+@Test(groups="regressionsuite")
+public void test9()
+{
+	System.out.println("executed");
 
 	}
 
